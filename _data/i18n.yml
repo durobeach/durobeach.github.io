@@ -1,0 +1,37 @@
+---
+Reservation:
+  en: Reservation
+  es: Reserva
+  pt: Reserva
+Cancel:
+  en: Cancel
+  es: Anular
+  pt: Cancelar
+Submit:
+  en: Submit
+  es: Enviar
+  pt: Enviar
+Book Now:
+  en: Book Now
+  es: Reserva ahora
+  pt: Reservar Agora
+Webcam and Weather:
+  en: Webcam and Weather
+  es: Camera Web y Tiempo
+  pt: Webcam e Previsão do Tempo
+Webcam:
+  en: Webcam
+  es: Camera Web
+  pt: Webcam
+Weather:
+  en: Weather
+  es: Tiempo
+  pt: Previsão do tempo
+Close:
+  en: Close
+  es: Cerrar
+  pt: Fechar
+Durobach Webcam:
+  en: Durobeach Webcam
+  es: Camera Web Durobeach
+  pt: Webcam Durobeach

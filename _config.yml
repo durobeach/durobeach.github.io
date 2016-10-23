@@ -1,0 +1,24 @@
+# Jekyll Configuration
+#
+title: Durobeach
+email: contact@durobeach.com
+description: Durobeach Hotel and Kite Center
+baseurl: ""
+url: "http://durobeach.github.io"
+twitter_username: durobeach
+github_username:  durobeach
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      parent: ""
+      order: 0
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-redirect-from
+exclude:
+  - Gemfile
+  - Gemfile.lock

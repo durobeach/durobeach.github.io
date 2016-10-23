@@ -1,0 +1,32 @@
+<script>
+  (function(d){
+     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/{{ page.lang }}/all.js";
+     d.getElementsByTagName('head')[0].appendChild(js);
+   }(document));
+</script>
+<!--[if lt IE 7 ]>
+<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+<![endif]-->
+<script type="text/javascript">
+jQuery(function($) {
+$('form[data-async]').on('submit', function(event) {
+    var $form = $(this);
+    var $target = $($form.attr('data-target'));
+
+    $.ajax({
+        type: $form.attr('method'),
+        url: $form.attr('action'),
+        data: $form.serialize(),
+
+        success: function(data, status) {
+            $target.html(data);
+        }
+    });
+
+    event.preventDefault();
+});
+});
+</script>

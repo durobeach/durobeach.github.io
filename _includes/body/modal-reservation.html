@@ -1,0 +1,17 @@
+<div id="reservation-modal" class="modal hide fade">
+  <div class="modal-header">
+    <button type="button" class="pull-right" data-dismiss="modal">×</button>
+    <h3>Durobeach {{ site.data.i18n.Reservation[page.lang] }}</h3>
+  </div>
+  <form id="reservation-form" method="post" data-async data-target="#reservation-modal-body" action="" class="form-horizontal">
+    <div id="reservation-modal-body" class="modal-body">
+      <fieldset>
+        Loading...
+      </fieldset>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="btn btn-danger btn-large" data-dismiss="modal">{{ site.data.i18n.Cancel[page.lang] }}</a>
+      <input type="submit" class="btn btn-primary btn-large" value="{{ site.data.i18n.Submit[page.lang] }}">
+    </div>
+  </form>
+</div>
