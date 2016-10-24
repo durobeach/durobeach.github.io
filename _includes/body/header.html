@@ -1,9 +1,19 @@
-<header class="container">
-  <div id="header" class="container">
-    <div class="logo">
-      <a href="/">
-        <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="Durobeach logo" />
-      </a>
+<header class="header">
+  <div class="header-wrapper">
+    <div class="header-logo">
+      <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="Durobeach logo" />
+    </div>
+    <div class="header-banner">
+      <h1>Durobeach Hotel</h1>
+      <h1><small>Cumbuco, {{ site.data.i18n['Brazil'][page.lang] }}</small></h1>
+    </div>
+    <div class="header-tripadvisor">
+      <div class="pull-right">
+        {% include body/tripadvisor-coe.html %}
+      </div>
+      <div class="pull-right">
+        {% include body/facebook-like.html %}
+      </div>
     </div>
   </div>
 </header>

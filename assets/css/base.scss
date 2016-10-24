@@ -12,3 +12,57 @@
 body {
     background-color: rgb(234,231,219);
 }
+
+.navbar .nav > li > a {
+    font-weight: bold;
+    color: rgb(234,231,219);
+}
+
+.header {
+  @extend .container;
+}
+
+.header-wrapper {
+  @extend .row;
+}
+
+.header-logo {
+  @extend .col-md-3;
+}
+
+.header-banner {
+  @extend .col-md-6;
+}
+
+.header-tripadvisor {
+  @extend .col-md-3;
+}
+
+.main {
+  @extend .container;
+}
+
+.main-wrapper {
+  @extend .row;
+}
+
+.left {
+  @extend .col-md-8;
+}
+
+.left > div, .right > div {
+    @include border-radius(5px);
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding:10px 10px 6px 10px;
+    margin-bottom:20px;
+}
+
+.left > table {
+  @extend .table;
+  @extend .table-bordered;
+}
+
+.right {
+  @extend .col-md-4;
+}

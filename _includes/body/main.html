@@ -1,17 +1,36 @@
-<div id="top" class="container">
-  <div class="image">
-    {% for image in page.top.images %}
-      <img src="{{ image | relative_url }}" alt="" />
-    {% endfor %}
+<div class="top">
+  <div class="top-wrapper">
+    <div class="image">
+      {% for image in page.top.images %}
+        <img src="{{ image | relative_url }}" alt="" />
+      {% endfor %}
+    </div>
   </div>
 </div>
-<div class="container">
-  <div class="row">
-    <div id="left" class="span8">
-      {{ content }}
+<div class="main">
+  <div class="main-wrapper">
+    <div class="left">
+      <div>
+        {{ content }}
+        {% include body/facebook-like2.html %}
+      </div>
+      <div>
+        {% include body/facebook-comments.html %}
+      </div>
     </div>
-    <div id="right" class="span4">
-      {% include body/tripadvisor-coe.html %}
+    <div class="right">
+      <div>
+        <h3>{{ site.data.i18n['Find us on Facebook'][page.lang] }}</h3>
+        <div class="fb-page" data-href="https://www.facebook.com/durobeachcumbuco" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/durobeachcumbuco" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/durobeachcumbuco">
+              Duro Beach Hotel &amp; Kite Center
+            </a>
+          </blockquote>
+        </div>
+      </div>
+      <div>
+        {% include body/tripadvisor-recommended.html %}
     </div>
   </div>
 </div>
