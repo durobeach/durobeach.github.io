@@ -21,13 +21,7 @@
     <div class="right">
       <div>
         <h3>{{ site.data.i18n['Find us on Facebook'][page.lang] }}</h3>
-        <div class="fb-page" data-href="https://www.facebook.com/durobeachcumbuco" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-          <blockquote cite="https://www.facebook.com/durobeachcumbuco" class="fb-xfbml-parse-ignore">
-            <a href="https://www.facebook.com/durobeachcumbuco">
-              Duro Beach Hotel &amp; Kite Center
-            </a>
-          </blockquote>
-        </div>
+        {% include/body/facebook-page.html %}
       </div>
       <div>
         {% include body/tripadvisor-recommended.html %}
