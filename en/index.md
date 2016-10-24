@@ -4,8 +4,7 @@ lang: en
 title: Home
 redirect_from: /
 top:
-  images:
-    - /media/medialibrary/2013/03/homesmallnew.jpg
+  images: []
 ---
 Situated next to the white, sandy beach in the heart of idyllic Cumbuco, the Durobeach Hotel and Kite Centre is a taste of paradise.
 

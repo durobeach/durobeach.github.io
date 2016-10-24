@@ -1,0 +1,14 @@
+---
+---
+@import "bootstrap";
+
+@mixin border-radius($radius) {
+    @include border-top-radius($radius);
+    @include border-right-radius($radius);
+    @include border-bottom-radius($radius);
+    @include border-left-radius($radius);
+}
+
+body {
+    background-color: rgb(234,231,219);
+}

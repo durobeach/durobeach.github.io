@@ -22,3 +22,9 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Sass assets
+sass:
+  sass_dir: _sass
+  style: compressed
+  

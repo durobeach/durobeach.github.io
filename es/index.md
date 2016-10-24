@@ -2,6 +2,8 @@
 ref: home
 lang: es
 title: Inicio
+top:
+  images: []
 ---
 Situado junto a la playa de arenas blancas en el corazón del idílico Cumbuco, el Hotel Durobeach y Centro de Kite son un trocito de paraíso.
 

@@ -2,6 +2,8 @@
 ref: home
 lang: pt
 title: Inicio
+top:
+  images: []
 ---
 Localizado beira mar e no coração do Cumbuco, o Duro Beach Hotel, Restaurante e Centro de Kite é uma pequena amostra do paraíso.
 

@@ -1,8 +1,0 @@
-{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-<ul class="nav pull-right">
-  {% for page in pages %}
-    <li>
-      <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-    </li>
-  {% endfor %}
-</ul>
