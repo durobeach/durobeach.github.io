@@ -7,6 +7,7 @@ baseurl: ""
 url: "http://durobeach.github.io"
 twitter_username: durobeach
 github_username:  durobeach
+permalink: pretty
 defaults:
   - scope:
       path: ""

@@ -58,7 +58,7 @@ body {
     margin-bottom:20px;
 }
 
-.left > table {
+.left table {
   @extend .table;
   @extend .table-bordered;
 }

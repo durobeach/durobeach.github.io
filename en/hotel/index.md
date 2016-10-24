@@ -12,8 +12,6 @@ We will do everything to provide you a high comfort and service quality that mak
 Welcome to Cumbuco beach,  
 Enjoy our hospitality and come and visit us soon!!
 
-
-
 Durobeach Hotel and Kite Centre offers the following amenities:
 
 ## Hotel
@@ -43,6 +41,9 @@ Durobeach Hotel and Kite Centre offers the following amenities:
 * Laundry service
 * Professional photographer
 * Massage
+
+## Activities
+
 * Buggy trips on the sand dunes or along the beach, with one of our trusted drivers or rent your own to drive yourself – your choice!
 * Sand boarding on the dunes
 * Parasailing
