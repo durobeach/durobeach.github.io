@@ -1,7 +1,7 @@
 # Jekyll Configuration
 #
 title: Durobeach
-email: contact@durobeach.com
+email: admin@durobeach.com
 description: Durobeach Hotel and Kite Center
 baseurl: ""
 url: "http://durobeach.github.io"
@@ -27,4 +27,3 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
-  
