@@ -1,32 +1,10 @@
-{% if page.lang == 'en' %}
 <div id="TA_certificateOfExcellence661" class="TA_certificateOfExcellence">
   <ul id="6VET4DdZZ" class="TA_links X6lXJ4Q">
     <li id="ztoUbGtPnwT" class="7kg5Pi2x">
-      <a target="_blank" href="https://www.tripadvisor.com/Hotel_Review-g657869-d1870148-Reviews-Duro_Beach_Hotel-Cumbuco_Caucaia_State_of_Ceara.html"><img src="https://www.tripadvisor.com/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
+      <a target="_blank" href="{{ site.data.languages[page.lang].tripadvisor_url }}/Hotel_Review-g657869-d1870148-Reviews-Duro_Beach_Hotel-Cumbuco_Caucaia_State_of_Ceara.html">
+        <img src="{{ site.data.languages[page.lang].tripadvisor_url }}/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/>
+      </a>
     </li>
   </ul>
 </div>
-<script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=661&amp;locationId=1870148&amp;lang=en_US&amp;year=2016&amp;display_version=2"></script>
-{% endif %}
-
-{% if page.lang == 'es' %}
-<div id="TA_certificateOfExcellence530" class="TA_certificateOfExcellence">
-  <ul id="Plu2tGcydw" class="TA_links FwKJkW">
-    <li id="o0OVxNFfP" class="aFwKQJf">
-      <a target="_blank" href="https://www.tripadvisor.es/Hotel_Review-g657869-d1870148-Reviews-Duro_Beach_Hotel-Cumbuco_Caucaia_State_of_Ceara.html"><img src="https://www.tripadvisor.es/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
-    </li>
-  </ul>
-</div>
-<script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=530&amp;locationId=1870148&amp;lang=es&amp;year=2016&amp;display_version=2"></script>
-{% endif %}
-
-{% if page.lang == 'pt' %}
-<div id="TA_certificateOfExcellence203" class="TA_certificateOfExcellence">
-  <ul id="Y2I6GSQ" class="TA_links k73OyjnGjiW">
-    <li id="5hcvYPzSF" class="xCqB3CC5JWv">
-      <a target="_blank" href="https://www.tripadvisor.com.br/Hotel_Review-g657869-d1870148-Reviews-Duro_Beach_Hotel-Cumbuco_Caucaia_State_of_Ceara.html"><img src="https://www.tripadvisor.com.br/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a>
-    </li>
-  </ul>
-</div>
-<script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=203&amp;locationId=1870148&amp;lang=pt&amp;year=2016&amp;display_version=2"></script>
-{% endif %}
+<script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=661&amp;locationId=1870148&amp;lang={{ page.lang }}&amp;year=2016&amp;display_version=2"></script>
