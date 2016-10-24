@@ -1,4 +1,13 @@
 ---
-en: English
-es: Español
-pt: Português
+en:
+  name: English
+  iso: en_US
+  tripadvisor_url: "https://www.tripadvisor.com"
+es:
+  name: Español
+  iso: es_LA
+  tripadvisor_url: "https://www.tripadvisor.es"
+pt:
+  name: Português
+  iso: pt_BR
+  tripadvisor_url: "https://www.tripadvisor.com.br"
