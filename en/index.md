@@ -6,7 +6,7 @@ redirect_from: /
 top:
   images: []
 ---
-Situated next to the green, sandy beach in the heart of idyllic Cumbuco, the Durobeach Hotel and Kite Centre is a taste of paradise.
+Situated next to the white, sandy beach in the heart of idyllic Cumbuco, the Durobeach Hotel and Kite Centre is a taste of paradise.
 
 The small fishing village of Cumbuco is renowned for it's breath-taking environment. White sand dunes, lagoons, endless beaches and coconut palms surround the laid-back village centre, with its selection of bars, restaurants and cafes. Absolute paradise.
 
