@@ -1,19 +1,38 @@
-<header class="header">
-  <div class="header-wrapper">
-    <div class="header-logo">
+<header>
+  <div class="container">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
       <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="Durobeach logo" />
     </div>
-    <div class="header-banner">
-      <h1>Durobeach Hotel</h1>
-      <h1><small>Cumbuco, {{ site.data.i18n['Brazil'][page.lang] }}</small></h1>
-    </div>
-    <div class="header-tripadvisor">
-      <div class="pull-right">
-        {% include body/tripadvisor-coe.html %}
-      </div>
-      <div class="pull-right">
-        {% include body/facebook-like.html %}
-      </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+      <ul class="social-list">
+        <li>
+          <a href="https://www.tripadvisor.co.uk/Hotel_Review-g657869-d1870148-Reviews-Duro_Beach_Hotel-Cumbuco_Caucaia_State_of_Ceara.html" target="blank">
+            <i class="fa fa-tripadvisor" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href='m&#97;il&#116;o&#58;%&#54;3o%6Et%&#54;&#49;&#37;63%74&#64;d&#117;r&#111;%62%65%61&#37;63h&#46;%63&#37;6&#70;m'>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/durobeach/" target="blank">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/durobeachcumbuco" target="blank">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+      <a class="phone hidden-sm hidden-xs">
+        <span class="phone-number">
+          T: +55 85 33187213
+          <br>
+          T: +55 85 987134345
+        </span>
+      </a>
     </div>
   </div>
 </header>

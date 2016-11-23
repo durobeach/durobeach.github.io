@@ -27,12 +27,7 @@
     {% else %}
       <li>
         <a href="{{ item.url | relative_url }}">
-          {% if item.ref == 'home' %}
-            <span class="glyphicon glyphicon-home">
-            </span>
-          {% else %}
-            {{ item.title }}
-          {% endif %}
+          {{ item.title }}
         </a>
       </li>
     {% endif %}
