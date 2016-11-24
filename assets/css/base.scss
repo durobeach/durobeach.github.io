@@ -16,6 +16,10 @@ html {
   font-family: $font-family-sans-serif;
 }
 
+.logo {
+  height: 120px;
+}
+
 .navbar-brand {
   padding: 0px;
   height: 120px;
@@ -31,7 +35,18 @@ html {
   text-transform: uppercase;
 }
 
-.social-list{
+.languages {
+  list-style: none;
+  padding: 0;
+}
+
+.languages > li {
+  display: inline;
+  margin-left: 10px;
+  float: right;
+}
+
+.social-list {
     list-style: none;
     padding: 0;
 }
@@ -39,6 +54,7 @@ html {
 .social-list > li {
   display: inline;
   margin-left:10px;
+  float: right;
 }
 
 .social-list > li > a {

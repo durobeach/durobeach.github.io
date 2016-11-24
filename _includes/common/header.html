@@ -1,48 +1,60 @@
 <header>
   <div class="container">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-      <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="Durobeach logo" />
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      <img class="logo" src="{{ "/assets/img/logo_final.svg" | relative_url }}" alt="Durobeach logo" />
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
       <div class="row">
         <ul class="social-list">
           <li>
-            <a href="https://www.tripadvisor.co.uk/Hotel_Review-g657869-d1870148-Reviews-Duro_Beach_Hotel-Cumbuco_Caucaia_State_of_Ceara.html" target="blank">
+            <a class="social-tripadvisor" role="button" href="https://www.tripadvisor.co.uk/Hotel_Review-g657869-d1870148-Reviews-Duro_Beach_Hotel-Cumbuco_Caucaia_State_of_Ceara.html" target="blank">
               <i class="fa fa-tripadvisor" aria-hidden="true"></i>
             </a>
           </li>
           <li>
-            <a href='m&#97;il&#116;o&#58;%&#54;3o%6Et%&#54;&#49;&#37;63%74&#64;d&#117;r&#111;%62%65%61&#37;63h&#46;%63&#37;6&#70;m'>
+            <a class="social-email" role="button" href='m&#97;il&#116;o&#58;%&#54;3o%6Et%&#54;&#49;&#37;63%74&#64;d&#117;r&#111;%62%65%61&#37;63h&#46;%63&#37;6&#70;m'>
               <i class="fa fa-envelope-o" aria-hidden="true"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/durobeach/" target="blank">
+            <a class="social-twitter" role="button" href="https://www.twitter.com/durobeach/" target="blank">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a class="social-instagram" role="button" href="https://www.instagram.com/durobeach/" target="blank">
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/durobeachcumbuco" target="blank">
+            <a class="social-facebook" role="button" href="https://www.facebook.com/durobeachcumbuco" target="blank">
               <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a class="social-skype" role="button" href="#">
               <i class="fa fa-skype" aria-hidden="true"></i>
             </a>
           </li>
+          <li>
+            <a class="social-phone" role="button" href="tel:+558533187213">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+            </a>
+          </li>
         </ul>
-      <div class="row hidden-sm hidden-xs">
-        <a class="btn btn-primary" href="tel:+558533187213" role="button">
-          <i class="fa fa-phone" aria-hidden="true"></i>
-          &nbsp;+55 85 33187213
-        </a>
       </div>
-      <div class="row hidden-sm hidden-xs">
-        <a class="btn btn-primary" href="tel:+5585987134345" role="button">
-          <i class="fa fa-phone" aria-hidden="true"></i>
-          &nbsp;+55 85 987134345
-        </a>
+      <div class="row">
+        <ul class="languages">
+          {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+          {% for page in pages %}
+            <li>
+              <a href="{{ page.url }}" class="{{ page.lang }}">
+                <img alt="{{ site.data.languages[page.lang].name }}" src="{{ '/assets/img/lang/' | append:page.lang  | append:'.png' | relative_url }}"/>
+                {{ site.data.languages[page.lang].name }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
