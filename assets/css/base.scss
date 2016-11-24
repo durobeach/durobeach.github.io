@@ -68,19 +68,6 @@ html {
   margin: 35px 0 0 0;
 }
 
-.phone{
-    height: 35px;
-    display: block;
-    float: right;
-    color: #34271C;
-    margin-left: 10px;
-}
-
-.phone .phone-number {
-  font-size: 20px;
-  color: #34271C;
-}
-
 .navbar-nav > li.booking {
   width: 120px;
 }
@@ -131,25 +118,17 @@ html {
   @extend .row;
 }
 
-.left {
-  @extend .col-md-8;
+.main-left {
+  @extend .col-md-9;
 }
 
-.left > div, .right > div {
-  @include border-radius(5px);
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  padding:10px 10px 6px 10px;
-  margin-bottom:20px;
-}
-
-.left table {
+.main-left table {
   @extend .table;
   @extend .table-bordered;
 }
 
-.right {
-  @extend .col-md-4;
+.main-right {
+  @extend .col-md-3;
 }
 
 .tripadvisor-center {
@@ -166,4 +145,8 @@ html {
 
 .tripadvisor-right > div > div {
   display: inline-block;
+}
+
+.fb-iframe-widget * {
+  width: 100%;
 }
