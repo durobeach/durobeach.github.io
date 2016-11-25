@@ -4,7 +4,15 @@ lang: en
 title: Home
 redirect_from: /
 top:
-  images: []
+  images:
+  - /assets/gallery/durogarden/DGMangotreeWeb.jpg
+  - /assets/gallery/durogarden/DGNightWeb_1.jpg
+  - /assets/gallery/durogarden/DGPoolWeb.jpg
+  - /assets/gallery/durogarden/DGVeranda1Web.jpg
+  - /assets/gallery/durogarden/DGVeranda2Web.jpg
+  - /assets/gallery/durogarden/DGpanoramicWeb.jpg
+  - /assets/gallery/durogarden/DGrooms2Web.jpg
+  - /assets/gallery/durogarden/DGroomsWeb.jpg
 ---
 Situated next to the white, sandy beach in the heart of idyllic Cumbuco, the Durobeach Hotel and Kite Centre is a taste of paradise.
 
