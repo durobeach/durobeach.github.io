@@ -1,13 +1,22 @@
-<div class="top">
-  <div class="top-wrapper">
-    <div class="image">
-      {% for image in page.top.images %}
-        <img src="{{ image | relative_url }}" alt="" />
-      {% endfor %}
-    </div>
+<div class="top container">
+  <div class="cycle-slideshow"
+       data-cycle-auto-height="calc"
+       data-cycle-loader="true"
+       data-cycle-pause-on-hover="true"
+       data-cycle-swipe="true"
+       data-cycle-swipe-fx="scrollHorz"
+       data-cycle-slides=">a,>img"
+       data-cycle-youtube="true"
+       data-cycle-youtube-autostart="false">
+    {% for image in page.top.images %}
+      <img src="{{ image | relative_url }}">
+    {% endfor %}
+    <div class="cycle-prev"><i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true"></i></div>
+    <div class="cycle-next"><i class="fa fa-arrow-circle-right fa-4x" aria-hidden="true"></i></div>
+    <div class="cycle-pager"></div>
   </div>
 </div>
-<div class="container">
+<div class="main container">
   <div class="row">
     <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 main-left">
       <h1>{{ page.title }}</h1>

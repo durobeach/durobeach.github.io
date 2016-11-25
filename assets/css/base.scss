@@ -52,6 +52,10 @@ ul.social > li > a:hover {
   color: #343434;
 }
 
+nav.navbar {
+  margin: 0;
+}
+
 .navbar-nav > li.booking {
   width: 120px;
 }
@@ -92,6 +96,66 @@ ul.social > li > a:hover {
 
 .navbar-nav > li.booking > a.booking .fa-calendar {
     margin-left: 10px;
+}
+
+.cycle-slideshow {
+  width: 100%;
+ }
+
+.cycle-slideshow img {
+  width: 100%;
+  height: auto;
+}
+
+.cycle-prev, .cycle-next {
+  position: absolute;
+  top: 0;
+  width: 30%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  z-index: 800;
+  height: 100%;
+  cursor: pointer;
+  display: table-cell;
+  vertical-align: middle;
+}
+.cycle-prev {
+  left: 0;
+}
+.cycle-next {
+  right: 0;
+  text-align: right;
+}
+
+.cycle-prev:hover, .cycle-next:hover {
+  opacity: .7;
+  filter: alpha(opacity=70);
+}
+
+.cycle-pager {
+    text-align: center;
+    width: 100%;
+    z-index: 500;
+    position: absolute;
+    bottom: 10px;
+    overflow: hidden;
+}
+
+.cycle-pager span {
+    font-family: arial;
+    font-size: 50px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    color: #ddd;
+    cursor: pointer;
+}
+.cycle-pager span.cycle-pager-active {
+  color: #D69746;
+}
+
+.cycle-pager > * {
+  cursor: pointer;
 }
 
 .main-left table {
