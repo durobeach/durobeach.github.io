@@ -2,7 +2,7 @@
 ref: kitecenter
 lang: en
 order: 30
-title: Kite Center & Shop
+title: Kite Center
 ---
 The Durobeach Kite Centre is considered one of the most prestigious kite surf schools in the world.
 
