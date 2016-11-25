@@ -7,13 +7,13 @@
     </div>
   </div>
 </div>
-<div class="main">
-  <div class="main-wrapper">
-    <div class="main-left">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 main-left">
       <h1>{{ page.title }}</h1>
       {{ content }}
     </div>
-    <div class="main-right">
+    <div class="col-lg-3 col-md-4 invisible-sm invisible-xs main-right">
       <h3>{{ site.data.i18n['Facebook'][page.lang] }}</h3>
       {% include common/facebook/page.html %}
     </div>

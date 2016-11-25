@@ -20,17 +20,6 @@ html {
   height: 120px;
 }
 
-.navbar-brand {
-  padding: 0px;
-  height: 120px;
-}
-
-.navbar-brand>img {
-  height: 100%;
-  padding: 0px;
-  width: auto;
-}
-
 .navbar .nav > li > a {
   text-transform: uppercase;
 }
@@ -73,16 +62,6 @@ html {
   background: #34271C;
 }
 
-.header-logo {
-  @extend .col-md-3;
-}
-
-.header-social {
-  @extend .col-md-9;
-  float: left;
-  margin: 35px 0 0 0;
-}
-
 .navbar-nav > li.booking {
   width: 120px;
 }
@@ -90,7 +69,7 @@ html {
 .navbar-nav > li > a.booking {
     font-size: 17px;
     text-transform: uppercase;
-    background: #EC8222;
+    background: #888888;
     color: #fff;
     transition: 0.5s;
 }
@@ -103,7 +82,7 @@ html {
     display: inline-block;
     width: 0;
     height: 0;
-    border-top: 15px solid #EC8222;
+    border-top: 15px solid #888888;
     border-right: 60px solid transparent;
     border-left: 60px solid transparent;
     border-bottom: 20px solid transparent;
@@ -112,12 +91,12 @@ html {
 }
 
 .navbar-nav > li.booking:hover > a.booking {
-    background: #FFAA5C;
+    background: #333333;
     transition: 0.5s;
 }
 
 .navbar-nav > li.booking:hover > a.booking:after {
-    border-top: 15px solid #FFAA5C;
+    border-top: 15px solid #333333;
     transition: 0.5s;
 }
 
@@ -125,25 +104,9 @@ html {
     margin-left: 10px;
 }
 
-.main {
-  @extend .container;
-}
-
-.main-wrapper {
-  @extend .row;
-}
-
-.main-left {
-  @extend .col-md-9;
-}
-
 .main-left table {
   @extend .table;
   @extend .table-bordered;
-}
-
-.main-right {
-  @extend .col-md-3;
 }
 
 .tripadvisor-center {

@@ -1,10 +1,10 @@
 <header>
   <div class="container">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-      <img class="logo" src="{{ "/assets/img/logo_final.svg" | relative_url }}" alt="Durobeach logo" />
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
-      <div class="row">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <img class="logo" src="{{ "/assets/img/logo_final.svg" | relative_url }}" alt="Durobeach logo" />
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
         <ul class="social-list">
           <li>
             <a class="social-tripadvisor" role="button" href="https://www.tripadvisor.co.uk/Hotel_Review-g657869-d1870148-Reviews-Duro_Beach_Hotel-Cumbuco_Caucaia_State_of_Ceara.html" target="blank">
@@ -43,7 +43,7 @@
           </li>
         </ul>
       </div>
-      <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
         <ul class="languages">
           {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
           {% for page in pages %}
