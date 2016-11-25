@@ -45,9 +45,7 @@ ul.social > li {
 
 ul.social > li > a {
   color: #888888;
-  -webkit-transition: background-color 0.3s, color 0.3s;
-  -moz-transition: background-color 0.3s, color 0.3s;
-  transition: background-color 0.3s, color 0.3s;
+  transition: 0.5s;
 }
 
 ul.social > li > a:hover {
@@ -60,7 +58,6 @@ ul.social > li > a:hover {
 
 .navbar-nav > li > a.booking {
     font-size: 17px;
-    text-transform: uppercase;
     background: #888888;
     color: #fff;
     transition: 0.5s;
@@ -84,6 +81,7 @@ ul.social > li > a:hover {
 
 .navbar-nav > li.booking:hover > a.booking {
     background: #333333;
+    color: #fff;
     transition: 0.5s;
 }
 
