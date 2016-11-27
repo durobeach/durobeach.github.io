@@ -2,5 +2,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/locales/bootstrap-datepicker.{{ site.data.locale[page.lang] }}.min.js"></script>
 <script>
-  $('.datepicker').datepicker()
+  $('.datepicker').datepicker({
+    language: '{{ site.data.locale[page.lang] }}',
+    startDate: '+0d'
+  })
 </script>
