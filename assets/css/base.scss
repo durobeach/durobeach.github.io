@@ -56,12 +56,13 @@ nav.navbar {
   margin: 0;
 }
 
+$booking-width: 122px;
+
 .navbar-nav > li.booking {
-  width: 120px;
+  width: $booking-width;
 }
 
 .navbar-nav > li > a.booking {
-    font-size: 17px;
     background: #888888;
     color: #fff;
     transition: 0.5s;
@@ -76,8 +77,8 @@ nav.navbar {
     width: 0;
     height: 0;
     border-top: 15px solid #888888;
-    border-right: 60px solid transparent;
-    border-left: 60px solid transparent;
+    border-right: $booking-width / 2 solid transparent;
+    border-left: $booking-width / 2 solid transparent;
     border-bottom: 20px solid transparent;
     content: "";
     transition: 0.5s;
