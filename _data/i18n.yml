@@ -15,8 +15,8 @@ Book Now:
   en: Book Now
   es: Reserva ahora
   pt: Reservar Agora
-Book:
-  en: Book
+Booking:
+  en: Booking
   es: Reserva
   pt: Reserva
 Webcam and Weather:
@@ -51,3 +51,51 @@ Facebook:
   en: Facebook
   es: Facebook
   pt: Facebook
+Name:
+  en: Name
+  es: Nombre
+  pt: Nome
+Email:
+  en: Email
+  es: Email
+  pt: Email
+Telephone:
+  en: Telephone
+  es: Telefono
+  pt: Telefone
+Check in:
+  en: Check in
+  es: Check in
+  pt: Check in
+Check out:
+  en: Check out
+  es: Check out
+  pt: Check out
+Occupancy:
+  en: Occupancy
+  es: Ocupacion
+  pt: Ocupaçao
+Double occupancy:
+  en: Double occupancy
+  es: Habitacion Doble
+  pt: Quarto Duplo
+Single occupancy:
+  en: Single occupancy
+  es: Habitacion Individual
+  pt: Quarto Individual
+Room arrangement:
+  en: Room arrangement
+  es: Distribuicion de habitacion
+  pt: Tipo de quarto
+Two single beds:
+  en: Two single beds
+  es: Dos camas individuales
+  pt: Duas camas de solteiro
+One King-Size bed:
+  en: One King-Size bed
+  es: Una cama de matrimonio
+  pt: Uma cama de casal - King Size
+Comment:
+  en: Comment
+  es: Observacion
+  pt: Comentario
