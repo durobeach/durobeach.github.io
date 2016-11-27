@@ -5,19 +5,19 @@
 <meta name="description" content="{{ page.description }}">
 <meta name="keywords" content="{{ page.keywords }}">
 <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" type="image/x-icon">
+<link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
 {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 {% for page in pages %}
   <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | relative_url }}" />
 {% endfor %}
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-<link rel="stylesheet" href="{{ '/assets/css/base.css' | relative_url }}">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.21.3/css/blueimp-gallery.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.7.0/css/flag-icon.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker3.min.css">
+<link rel="stylesheet" href="{{ '/assets/css/base.css' | relative_url }}">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="{{ '/assets/js/respond.min.js' | relative_url }}"></script>
+<![endif]-->
 <meta property="og:title" content="Durobeach">
 <meta property="og:type" content="hotel">
 <meta property="og:url" content="{{ site.base }}">
