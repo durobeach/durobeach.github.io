@@ -9,6 +9,8 @@
         </button>
         <h3>Durobeach {{ site.data.i18n.['Reservation'][page.lang] }}</h3>
       </div>
+      <script async type="text/javascript" data-form-id="5841aa6d7f7f9" data-lang="{{ page.lang }}" src="https://secured.sirvoy.com/widget/sirvoy.js"></script>
+{% comment %}
       <form id="reservation-form" method="post" action="" class="form-horizontal">
         <div id="reservation-modal-body" class="modal-body">
           <fieldset>
@@ -73,6 +75,7 @@
           <input type="submit" class="btn btn-primary btn-large" value="{{ site.data.i18n['Submit'][page.lang] }}">
         </div>
       </form>
+    {% endcomment %}
     </div>
   </div>
 </div>
