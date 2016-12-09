@@ -14,6 +14,8 @@ defaults:
     values:
       layout: page
       parent: ""
+      ref: ""
+      nav: true
       order: 0
 
 # Build settings
