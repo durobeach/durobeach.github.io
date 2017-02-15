@@ -25,6 +25,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - _art
 
 # Sass assets
 sass:
