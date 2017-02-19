@@ -17,7 +17,9 @@
 <div class="main container">
   <div class="row">
     <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 main-left">
-      <h1>{{ page.title }}</h1>
+      {% if page.ref != "home" %}
+        <h1>{{ page.title }}</h1>
+      {% endif %}
       {{ content }}
     </div>
     <div class="col-lg-3 col-md-4 hidden-sm hidden-xs main-right">

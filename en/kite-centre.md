@@ -17,6 +17,8 @@ Want to learn to kite surf in a safe way?? With us it will take you about 3 days
 * First lessons are given in the nearby Cauipe lagoon where the conditions are ideal to get you on the board and riding.flat, shallow water. The Cauipe lagoon is only 6km from our school. With an average depth of only 120cm the lagoon has the perfect conditions for beginners.
 * More advanced courses are given in front of our school where the sea is calm and the beaches are very spacious.
 
+[Find Kite School Durobeach on Facebook][1]
+
 ## Durobeach Kite Shop
 
 Kites, boards, harnesses, spare parts, kite repair service, Durobeach kite shop has it all. New and used equipment available. 
@@ -38,3 +40,5 @@ Great reasons to kite-surf in front of Durobeach Hotel and Kite Centre Cumbuco:
 * You are just a few steps away from the hotel where you can have a refreshing break with a drink, snack or a shower.
 
 One kilometre downwind from Durobeach Hotel and Kite Centre the shore-break gets stronger but is the most fun if you are making a downwind towards the lagoon of Cauipe. This stunning, freshwater lagoon is just 50 meters from the ocean and about 5 km downwind from town. There are a selection of local restaurants serving fresh seafood and you can get there by car but also over the beach by buggy or 4-wheel drive. Buggy drivers usually wait in front of the restaurants to drive people back to the village for about 10 real a person. The shallow waters of the lagoon make it the perfect training spot. As definite “must visit” during your stay at Durobeach Hotel.
+
+[1]: https://www.facebook.com/kiteschooldurobeach/?fref=ts
