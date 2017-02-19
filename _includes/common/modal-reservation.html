@@ -9,8 +9,87 @@
         </button>
         <h3>Durobeach {{ site.data.i18n.['Reservation'][page.lang] }}</h3>
       </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <a class="btn btn-default reservation-modal-button" href="#" role="button" data-toggle="modal" data-target="#reservation-durobeach">
+            <p>
+              Book Durobeach Hotel
+            </p>
+            <p>
+              <img src="{{ "/assets/img/logo_DB.svg" | relative_url }}" alt="Durobeach logo" />
+            </p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a class="btn btn-default reservation-modal-button" href="#" role="button" data-toggle="modal" data-target="#reservation-durogarden">
+            <p>
+              Book Durogarden Hotel
+            </p>
+            <p>
+              <img src="{{ "/assets/img/logo_DG.svg" | relative_url }}" alt="Durogarden logo" />
+            </p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a class="btn btn-default reservation-modal-button" href="#" role="button" data-toggle="modal" data-target="#reservation-info">
+            <p>
+              Contact us
+            </p>
+            <p>
+              <img src="{{ "/assets/img/info.svg" | relative_url }}" alt="Info" />
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="reservation-durobeach" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Durobeach {{ site.data.i18n.['Reservation'][page.lang] }}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            &times;
+          </span>
+        </button>
+        <h3>Durobeach {{ site.data.i18n.['Reservation'][page.lang] }}</h3>
+      </div>
       <script async type="text/javascript" data-form-id="5841aa6d7f7f9" data-lang="{{ page.lang }}" src="https://secured.sirvoy.com/widget/sirvoy.js"></script>
-{% comment %}
+    </div>
+  </div>
+</div>
+
+<div id="reservation-durogarden" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Durobeach {{ site.data.i18n.['Reservation'][page.lang] }}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            &times;
+          </span>
+        </button>
+        <h3>Durogarden {{ site.data.i18n.['Reservation'][page.lang] }}</h3>
+      </div>
+      <script async type="text/javascript" data-form-id="5841aa6d7f7f9" data-lang="{{ page.lang }}" src="https://secured.sirvoy.com/widget/sirvoy.js"></script>
+    </div>
+  </div>
+</div>
+
+
+<div id="reservation-info" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Durobeach {{ site.data.i18n.['Reservation'][page.lang] }}">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            &times;
+          </span>
+        </button>
+        <h3>Durobeach {{ site.data.i18n.['Reservation'][page.lang] }}</h3>
+      </div>
       <form id="reservation-form" method="post" action="" class="form-horizontal">
         <div id="reservation-modal-body" class="modal-body">
           <fieldset>
@@ -75,7 +154,6 @@
           <input type="submit" class="btn btn-primary btn-large" value="{{ site.data.i18n['Submit'][page.lang] }}">
         </div>
       </form>
-    {% endcomment %}
     </div>
   </div>
 </div>

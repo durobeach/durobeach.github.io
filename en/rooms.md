@@ -24,9 +24,27 @@ Durobeach hotel, restaurant and kite center is located at the beach and right in
 * Parking
 * Beach front restaurant
 
-### SEAVIEW
+### SEAVIEW SUITE
 
-### SUPERIOR SEAVIEW
+Our fully equipped beachfront suite has beautiful sea views.
+You can chill on your private  terrace overlooking the swimming pool and the beach.  
+
+![Seaview Suite][6]
+![Seaview Suite][7]
+![Seaview Suite][8]
+![Seaview Suite][9]
+{: class="cycle-slideshow" data-cycle-auto-height="calc" data-cycle-loader="true" data-cycle-pause-on-hover="true" data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz"}
+<a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#reservation-durobeach">Reserve a Seaview Suite <i class="fa fa-calendar" aria-hidden="true"></i></a>
+
+### SUPERIOR SEAVIEW SUITE
+
+Our most exclusive beach front suite features an extra large terrace with panoramic seaviews.
+
+![Superior Seaview Suite][10]
+![Superior Seaview Suite][11]
+![Superior Seaview Suite][12]
+{: class="cycle-slideshow" data-cycle-auto-height="calc" data-cycle-loader="true" data-cycle-pause-on-hover="true" data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz"}
+<a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#reservation-durobeach">Reserve a Superior Seaview Suite <i class="fa fa-calendar" aria-hidden="true"></i></a>
 
 ## Durogarden rooms
 
@@ -43,3 +61,22 @@ Welcome to our brand new suites with garden view, at only 25 meters from the bea
 * Free Wifi
 * Parking
 * Beach front restaurant
+
+### DUROGARDEN SUITE
+
+![DuroGarden Suite][13]
+![DuroGarden Suite][14]
+![DuroGarden Suite][15]
+{: class="cycle-slideshow" data-cycle-auto-height="calc" data-cycle-loader="true" data-cycle-pause-on-hover="true" data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz"}
+<a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#reservation-durogarden">Reserve a DuroGarden Suite <i class="fa fa-calendar" aria-hidden="true"></i></a>
+
+[6]: /assets/rooms/seaview/6.jpg
+[7]: /assets/rooms/seaview/7.jpg
+[8]: /assets/rooms/seaview/8.jpg
+[9]: /assets/rooms/seaview/9.jpg
+[10]: /assets/rooms/superior/10.jpg
+[11]: /assets/rooms/superior/11.jpg
+[12]: /assets/rooms/superior/12.jpg
+[13]: /assets/rooms/garden/13.jpg
+[14]: /assets/rooms/garden/14.jpg
+[15]: /assets/rooms/garden/15.jpg
