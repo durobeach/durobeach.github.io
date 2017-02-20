@@ -6,7 +6,7 @@ order: 10
 top:
   images:
 ---
-{:gallery: .cycle-slideshow data-cycle-auto-height="calc" data-cycle-loader="true" data-cycle-pause-on-hover="true" data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz"}
+{:gallery: .cycle-slideshow data-cycle-auto-height="calc" data-cycle-loader="true" data-cycle-pause-on-hover="true" data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz" data-cycle-timeout="2000"}
 {:db: .btn .btn-primary href="#" role="button" data-toggle="modal" data-target="#reservation-durobeach"}
 {:dg: .btn .btn-primary href="#" role="button" data-toggle="modal" data-target="#reservation-durogarden"}
 
