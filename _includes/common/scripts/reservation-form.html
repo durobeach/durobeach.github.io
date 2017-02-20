@@ -9,8 +9,10 @@
         method: $form.attr('method'),
         data: $form.serialize(),
         dataType: 'json',
-        success: function(data, textStatus) { alert('success message...'); alert(textStatus); },
-        error: function(xhr, textStatus, errorThrown) { alert('error message...'); alert(textStatus); }
+        success: function(data, textStatus) {
+          $target.html("Thank you for your reservation. We will contact you as soon as possible!");
+        },
+        error: function(xhr, textStatus, errorThrown) { alert('Failed to send email...'); }
       });
     });
   });
