@@ -28,7 +28,7 @@ Want to learn to kite surf in a safe way?? With us it will take you about 3 days
 * First lessons are given in the nearby Cauipe lagoon where the conditions are ideal to get you on the board and riding.flat, shallow water. The Cauipe lagoon is only 6km from our school. With an average depth of only 120cm the lagoon has the perfect conditions for beginners.
 * More advanced courses are given in front of our school where the sea is calm and the beaches are very spacious.
 
-[Find Kite School Durobeach on Facebook][1]
+[Find Kite School Durobeach on Facebook][1]{: target="_blank" }
 
 ## Durobeach Kite Shop
 
