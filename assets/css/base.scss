@@ -188,3 +188,24 @@ $booking-width: 122px;
   width: 100%;
   margin-bottom: 1em;
 }
+
+.reservation-model-image {
+  width: 100%;
+}
+
+footer {
+  background: url("/assets/img/footer.jpg") no-repeat center center;
+  background-size: cover cover;
+}
+
+.tripadvisor {
+  background-color: rgba(255,255,255,0.7);
+}
+
+.footer-bottom {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.footer-bottom p {
+  color: #fcfcfc;
+}

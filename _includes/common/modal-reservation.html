@@ -13,20 +13,20 @@
         <div class="col-sm-4">
           <a class="btn btn-default reservation-modal-button" href="#" role="button" data-toggle="modal" data-target="#reservation-durobeach">
             <p>
-              Book Durobeach Hotel
+              Book a Sea View Suite
             </p>
             <p>
-              <img src="{{ "/assets/img/logo_DB.svg" | relative_url }}" alt="Durobeach logo" />
+              <img class="reservation-model-image" src="{{ "/assets/img/DB.svg" | relative_url }}" alt="Durobeach" />
             </p>
           </a>
         </div>
         <div class="col-sm-4">
           <a class="btn btn-default reservation-modal-button" href="#" role="button" data-toggle="modal" data-target="#reservation-durogarden">
             <p>
-              Book Durogarden Hotel
+              Book a Garden View Suite
             </p>
             <p>
-              <img src="{{ "/assets/img/logo_DG.svg" | relative_url }}" alt="Durogarden logo" />
+              <img class="reservation-model-image" src="{{ "/assets/img/DG.svg" | relative_url }}" alt="Durogarden" />
             </p>
           </a>
         </div>
@@ -36,7 +36,7 @@
               Contact us
             </p>
             <p>
-              <img src="{{ "/assets/img/info.svg" | relative_url }}" alt="Info" />
+              <img class="reservation-model-image" src="{{ "/assets/img/info.svg" | relative_url }}" alt="Info" />
             </p>
           </a>
         </div>
@@ -55,9 +55,21 @@
             &times;
           </span>
         </button>
-        <h3>Durobeach {{ site.data.i18n.['Reservation'][page.lang] }}</h3>
+        <h3>Book a Sea View Suite</h3>
       </div>
       <script async type="text/javascript" data-form-id="5841aa6d7f7f9" data-lang="{{ page.lang }}" src="https://secured.sirvoy.com/widget/sirvoy.js"></script>
+      <div class="modal-body">
+        <h4>Cancellation Policy</h4>
+        <p>
+          If cancelation is done until 21 days prior to arrival date, we will charge a cancelation fee of 15% of the downpayment.
+        </p>
+        <p>
+          If cancelation is done between 21 days and 7 days prior to arrival date, we will charge a cancelation fee of 50% of the downpayment.
+        </p>
+        <p>
+          If cancelation is done within 7 days or less of the arrival date, there will be no refund of the downpayment.
+        </p>
+      </div>
     </div>
   </div>
 </div>
@@ -71,9 +83,21 @@
             &times;
           </span>
         </button>
-        <h3>Durogarden {{ site.data.i18n.['Reservation'][page.lang] }}</h3>
+        <h3>Book a Garden View Suite</h3>
       </div>
-      <script async type="text/javascript" data-form-id="5841aa6d7f7f9" data-lang="{{ page.lang }}" src="https://secured.sirvoy.com/widget/sirvoy.js"></script>
+      <script async type="text/javascript" data-form-id="58a20d1feb4ac" data-lang="{{ page.lang }}" src="https://secured.sirvoy.com/widget/sirvoy.js"></script>
+      <div class="modal-body">
+        <h4>Cancellation Policy</h4>
+        <p>
+          If cancelation is done until 21 days prior to arrival date, we will charge a cancelation fee of 15% of the downpayment.
+        </p>
+        <p>
+          If cancelation is done between 21 days and 7 days prior to arrival date, we will charge a cancelation fee of 50% of the downpayment.
+        </p>
+        <p>
+          If cancelation is done within 7 days or less of the arrival date, there will be no refund of the downpayment.
+        </p>
+      </div>
     </div>
   </div>
 </div>
@@ -88,7 +112,7 @@
             &times;
           </span>
         </button>
-        <h3>Durobeach {{ site.data.i18n.['Reservation'][page.lang] }}</h3>
+        <h3>Contact Us</h3>
       </div>
       <form id="reservation-form" method="post" action="" class="form-horizontal">
         <div id="reservation-modal-body" class="modal-body">

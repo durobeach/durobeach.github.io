@@ -6,6 +6,10 @@ order: 10
 top:
   images:
 ---
+{:gallery: .cycle-slideshow data-cycle-auto-height="calc" data-cycle-loader="true" data-cycle-pause-on-hover="true" data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz"}
+{:db: .btn .btn-primary href="#" role="button" data-toggle="modal" data-target="#reservation-durobeach"}
+{:dg: .btn .btn-primary href="#" role="button" data-toggle="modal" data-target="#reservation-durogarden"}
+
 Durobeach hotel, restaurant and kite center is located at the beach and right in the heart of the idyllic place called Cumbuco. The tropical decoration and boutique hotel style of our rooms go hand in hand with modern infrastructure. Relax on your veranda, get a massage or have a drink by the pool. If you like kitesurfing just take your gear out of your private locker and go riding in front.
 
 ## Durobeach rooms
@@ -33,8 +37,8 @@ You can chill on your private  terrace overlooking the swimming pool and the bea
 ![Seaview Suite][7]
 ![Seaview Suite][8]
 ![Seaview Suite][9]
-{: class="cycle-slideshow" data-cycle-auto-height="calc" data-cycle-loader="true" data-cycle-pause-on-hover="true" data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz"}
-<a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#reservation-durobeach">Reserve a Seaview Suite <i class="fa fa-calendar" aria-hidden="true"></i></a>
+{: gallery }
+<a>Reserve a Seaview Suite <i class="fa fa-calendar" aria-hidden="true"></i></a>{: db }
 
 ### SUPERIOR SEAVIEW SUITE
 
@@ -43,8 +47,8 @@ Our most exclusive beach front suite features an extra large terrace with panora
 ![Superior Seaview Suite][10]
 ![Superior Seaview Suite][11]
 ![Superior Seaview Suite][12]
-{: class="cycle-slideshow" data-cycle-auto-height="calc" data-cycle-loader="true" data-cycle-pause-on-hover="true" data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz"}
-<a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#reservation-durobeach">Reserve a Superior Seaview Suite <i class="fa fa-calendar" aria-hidden="true"></i></a>
+{: gallery }
+<a>Reserve a Superior Seaview Suite <i class="fa fa-calendar" aria-hidden="true"></i></a>{: db }
 
 ## Durogarden rooms
 
@@ -67,8 +71,8 @@ Welcome to our brand new suites with garden view, at only 25 meters from the bea
 ![DuroGarden Suite][13]
 ![DuroGarden Suite][14]
 ![DuroGarden Suite][15]
-{: class="cycle-slideshow" data-cycle-auto-height="calc" data-cycle-loader="true" data-cycle-pause-on-hover="true" data-cycle-swipe="true" data-cycle-swipe-fx="scrollHorz"}
-<a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#reservation-durogarden">Reserve a DuroGarden Suite <i class="fa fa-calendar" aria-hidden="true"></i></a>
+{: gallery }
+<a>Reserve a Garden View Suite <i class="fa fa-calendar" aria-hidden="true"></i></a>{: dg }
 
 [6]: /assets/rooms/seaview/6.jpg
 [7]: /assets/rooms/seaview/7.jpg
