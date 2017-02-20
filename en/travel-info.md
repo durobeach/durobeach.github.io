@@ -3,6 +3,12 @@ lang: en
 ref: travel-info
 nav: false
 title: Travel Info
+redirect_from:
+- /travel/
+- /travel/location/
+- /travel/airport-transfer/
+- /travel/flights/
+- /travel/travel-information/
 ---
 ## Climate
 Forget jackets or warm jumpers, the temperature is always around 25-30 C. Leave your wetsuit at home. The water temperature is around 25 degrees Celsius. Use sunscreen. The sun is often underestimated due to the refreshing breeze. Don’t burn all your energy kiting 8 hours on the first day because the next day will be windy as well, and the next, and the next...

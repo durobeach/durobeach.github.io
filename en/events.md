@@ -3,6 +3,8 @@ lang: en
 ref: events
 nav: false
 title: Events
+redirect_from:
+- /bar-and-restaurant/events/
 ---
 Durobeach has been a host of many sport competitions like the Superkite, KPWT, and many others, as well as corporate and team building events.
 

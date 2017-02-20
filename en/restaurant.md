@@ -3,6 +3,9 @@ ref: restaurant
 lang: en
 title: Restaurant
 order: 20
+redirect_from:
+- /bar-and-restaurant/
+- /bar-and-restaurant/food-drinks/
 top:
   images:
   - /assets/top/restaurant/1.jpg

@@ -3,6 +3,12 @@ ref: cumbuco
 lang: en
 title: Cumbuco
 order: 40
+redirect_from:
+- /cumbuco/
+- /cumbuco/activities/
+- /cumbuco/activities/tours/
+- /cumbuco/fortaleza/
+- /cumbuco/real/
 top:
   images:
   - /assets/top/cumbuco/1.jpg

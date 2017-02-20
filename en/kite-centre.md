@@ -3,6 +3,17 @@ ref: kite-center
 lang: en
 title: Kite Center
 order: 30
+redirect_from:
+- /kite-centre/
+- /kite-centre/kite-spots/
+- /kite-centre/kite-spots/kiting-durobeach/
+- /kite-centre/kite-spots/around-cumbuco/
+- /kite-centre/kite-spots/downwind/
+- /kite-centre/wind-and-weather/
+- /kite-centre/wind-and-weather/live-wind/
+- /kite-centre/wind-and-weather/tide-forecast/
+- /kite-centre/wind-and-weather/windguru-forecast/
+- /kite-centre/kite-lessons/
 top:
   images:
 ---

@@ -2,7 +2,12 @@
 ref: home
 lang: en
 title: Home
-redirect_from: /
+redirect_from:
+- /
+- /HOTEL/
+- /HOTEL/rates/
+- /HOTEL/spa/
+- /reservation/
 top:
   images:
   - /assets/top/home/1.jpg
