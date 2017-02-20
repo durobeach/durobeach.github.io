@@ -1,0 +1,17 @@
+<script>
+  jQuery(function($) {
+    $('form[data-async]').on('submit', function(event) {
+      event.preventDefault();
+      var $form = $(this);
+      var $target = $($form.attr('data-target'));
+      $.ajax({
+        url: $form.attr('action'),
+        method: $form.attr('method'),
+        data: $form.serialize(),
+        dataType: 'json',
+        success: function(data, textStatus) { alert('success message...'); alert(textStatus); },
+        error: function(xhr, textStatus, errorThrown) { alert('error message...'); alert(textStatus); }
+      });
+    });
+  });
+</script>
