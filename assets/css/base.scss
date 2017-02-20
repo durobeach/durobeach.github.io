@@ -186,7 +186,7 @@ $booking-width: 122px;
 
 .reservation-modal-button {
   width: 100%;
-  margin-bottom: 1em;
+  margin-bottom: 10px;
 }
 
 .reservation-model-image {
@@ -194,16 +194,21 @@ $booking-width: 122px;
 }
 
 footer {
+  margin-top: 10px;
   background: url("/assets/img/footer.jpg") no-repeat center center;
   background-size: cover cover;
 }
 
 .tripadvisor {
   background-color: rgba(255,255,255,0.7);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .footer-bottom {
   background-color: rgba(0,0,0,0.7);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .footer-bottom p {
